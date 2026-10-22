@@ -1,0 +1,3 @@
+# Entrega de fases do AlbinoCombat
+
+O usuário autorizou publicar este projeto em arthurkratos20-max/Jogo. Ao concluir cada nova fase, atualizar o GitHub com a mesma versão entregue ao usuário e atualizar README, documentação e pacote do projeto. Preservar o histórico e trabalhos não relacionados. Publicar o executável Windows da fase quando realmente compilado e testado; nunca renomear código-fonte ou reutilizar binário antigo como se fosse da nova fase. Se não houver compilador GameMaker disponível, informar a pendência e solicitar ao usuário o pacote exportado para concluir a publicação jogável. A pasta legacy/pre-fase7 preserva o binário antigo e não é a versão atual.

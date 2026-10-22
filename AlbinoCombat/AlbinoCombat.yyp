@@ -1,0 +1,242 @@
+{
+  "$GMProject": "v1",
+  "%Name": "AlbinoCombat",
+  "AudioGroups": [
+    {
+      "$GMAudioGroup": "v1",
+      "%Name": "audiogroup_default",
+      "name": "audiogroup_default",
+      "resourceType": "GMAudioGroup",
+      "resourceVersion": "2.0",
+      "targets": -1,
+      "exportDir": ""
+    }
+  ],
+  "configs": {
+    "children": [],
+    "name": "Default"
+  },
+  "defaultScriptType": 1,
+  "Folders": [
+    {
+      "$GMFolder": "",
+      "%Name": "Scripts",
+      "folderPath": "folders/Scripts.yy",
+      "name": "Scripts",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Objects",
+      "folderPath": "folders/Objects.yy",
+      "name": "Objects",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Rooms",
+      "folderPath": "folders/Rooms.yy",
+      "name": "Rooms",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    }
+  ],
+  "IncludedFiles": [],
+  "isEcma": false,
+  "LibraryEmitters": [],
+  "MetaData": {
+    "IDEVersion": "2024.13.0.190"
+  },
+  "name": "AlbinoCombat",
+  "resources": [
+    {
+      "id": {
+        "name": "scr_types",
+        "path": "scripts/scr_types/scr_types.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_attack_data",
+        "path": "scripts/scr_attack_data/scr_attack_data.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_input",
+        "path": "scripts/scr_input/scr_input.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_weapon_manager",
+        "path": "scripts/scr_weapon_manager/scr_weapon_manager.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_damage",
+        "path": "scripts/scr_damage/scr_damage.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_movement",
+        "path": "scripts/scr_movement/scr_movement.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_combat",
+        "path": "scripts/scr_combat/scr_combat.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_drawing",
+        "path": "scripts/scr_drawing/scr_drawing.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_game",
+        "path": "objects/obj_game/obj_game.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_player",
+        "path": "objects/obj_player/obj_player.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_enemy_parent",
+        "path": "objects/obj_enemy_parent/obj_enemy_parent.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_dummy",
+        "path": "objects/obj_dummy/obj_dummy.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_camera",
+        "path": "objects/obj_camera/obj_camera.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "rm_arena",
+        "path": "rooms/rm_arena/rm_arena.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_axe",
+        "path": "objects/obj_axe/obj_axe.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_axe",
+        "path": "scripts/scr_axe/scr_axe.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_blades",
+        "path": "objects/obj_blades/obj_blades.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_blades",
+        "path": "scripts/scr_blades/scr_blades.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_spear",
+        "path": "objects/obj_spear/obj_spear.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_spear_projectile",
+        "path": "objects/obj_spear_projectile/obj_spear_projectile.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_spear",
+        "path": "scripts/scr_spear/scr_spear.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_soft_chain",
+        "path": "scripts/scr_soft_chain/scr_soft_chain.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_shield",
+        "path": "scripts/scr_shield/scr_shield.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_shield_test",
+        "path": "scripts/scr_shield_test/scr_shield_test.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_execution",
+        "path": "scripts/scr_execution/scr_execution.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_navigation_ai",
+        "path": "scripts/scr_navigation_ai/scr_navigation_ai.yy"
+      }
+    }
+  ],
+  "resourceType": "GMProject",
+  "resourceVersion": "2.0",
+  "RoomOrderNodes": [
+    {
+      "roomId": {
+        "name": "rm_arena",
+        "path": "rooms/rm_arena/rm_arena.yy"
+      }
+    }
+  ],
+  "templateType": "game",
+  "TextureGroups": [
+    {
+      "$GMTextureGroup": "",
+      "%Name": "Default",
+      "autocrop": true,
+      "border": 2,
+      "compressFormat": "bz2",
+      "customOptions": "",
+      "directory": "",
+      "groupParent": null,
+      "isScaled": true,
+      "loadType": "default",
+      "mipsToGenerate": 0,
+      "name": "Default",
+      "resourceType": "GMTextureGroup",
+      "resourceVersion": "2.0",
+      "targets": -1
+    }
+  ],
+  "ForcedPrefabProjectReferences": []
+}

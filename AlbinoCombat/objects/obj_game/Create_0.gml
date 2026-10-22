@@ -1,0 +1,22 @@
+game_set_speed(60, gamespeed_fps);
+global.debug_combat = true;
+global.equipment_open = false; global.equipment_selection = 0; global.test_attacks = [];
+global.combat_clock = 0; global.hitstop_remaining = 0; global.combat_frozen = false;
+global.shake_strength = 0; global.shake_remaining = 0;
+global.fx = []; global.sfx = {};
+global.attack_database = build_attack_database(); global.fury_attacks = build_fury_attacks();
+global.walls = [{x1: 580, y1: 330, x2: 680, y2: 530}, {x1: 1080, y1: 600, x2: 1300, y2: 660}];
+global.player = instance_create_layer(800, 570, "Actors", obj_player);
+instance_create_layer(800, 420, "Actors", obj_dummy);
+instance_create_layer(960, 420, "Actors", obj_dummy);
+var _elite = instance_create_layer(920, 590, "Actors", obj_dummy);
+_elite.is_elite = true; _elite.max_hp = 800; _elite.hp = 800;
+instance_create_layer(0, 0, "Systems", obj_camera);
+
+var _raider = instance_create_layer(430, 660, "Actors", obj_enemy_parent);
+_raider.ai_enabled = true; _raider.hp = 180; _raider.max_hp = 180;
+var _raider2 = instance_create_layer(1120, 420, "Actors", obj_enemy_parent);
+_raider2.ai_enabled = true; _raider2.hp = 180; _raider2.max_hp = 180; _raider2.ai_cooldown = 95;
+var _guardian = instance_create_layer(1100, 850, "Actors", obj_enemy_parent);
+_guardian.ai_enabled = true; _guardian.is_elite = true; _guardian.hp = 420; _guardian.max_hp = 420;
+_guardian.max_stun = 140; _guardian.knockback_resistance = 0.5; _guardian.ai_cooldown = 140;
